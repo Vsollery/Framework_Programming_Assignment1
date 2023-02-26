@@ -11,6 +11,8 @@ Assignment 1 from the course Framework Programming (IUP) at Institut Teknologi S
 
 ## Exercise 2 
 
+![exercise_1](/images/Tab_navigation.png)
+
 ## Exercise 3
 
 
