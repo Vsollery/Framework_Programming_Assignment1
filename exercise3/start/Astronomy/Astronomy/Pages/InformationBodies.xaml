@@ -7,8 +7,10 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Button">
-                <Setter Property="FontSize" Value="100" />
+                <Setter Property="FontSize" Value="50" />
                 <Setter Property="BorderColor" Value="DarkGray" />
+                <Setter Property="MaximumHeightRequest" Value="50"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
             </Style>
             <Style TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Center" />
@@ -21,15 +23,21 @@
 
     <Grid Margin="8">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnInfo1" Grid.Row="0" Grid.Column="0" Text="1️⃣" />
-        <Button x:Name="btnInfo2"  Grid.Row="0" Grid.Column="1" Text="2️⃣" />
+        <Button x:Name="btnInfo1" Grid.Row="0" Grid.Column="0" Text="1️⃣" WidthRequest="100" HeightRequest="100" Margin="2" />
+        <Button x:Name="btnInfo2"  Grid.Row="1" Grid.Column="1" Text="2️⃣" WidthRequest="100" HeightRequest="100" Margin="2"/>
         
+     
+        
+     
     </Grid>
+
+    
+        
+    
 </ContentPage>
