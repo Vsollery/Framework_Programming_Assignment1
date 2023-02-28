@@ -104,6 +104,12 @@
 	  <MauiXaml Update="Pages\AstronomicalBodyPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Information.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\InformationBodies.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\MoonPhasePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

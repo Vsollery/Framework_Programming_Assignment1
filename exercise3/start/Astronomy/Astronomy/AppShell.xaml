@@ -18,6 +18,8 @@
             ContentTemplate="{DataTemplate local:SunrisePage}" />
         <ShellContent Title="Bodies" Icon="comet.png"
             ContentTemplate="{DataTemplate local:AstronomicalBodiesPage}"/>
+        <ShellContent Title="Information" Icon="info.png"
+            ContentTemplate="{DataTemplate local:InformationBodies}"/>
     </FlyoutItem>
 
     <FlyoutItem Title="About" Icon="question.png">

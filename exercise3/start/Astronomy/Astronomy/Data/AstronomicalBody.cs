@@ -7,5 +7,6 @@
         public string Circumference { get; set; }
         public string Age { get; set; }
         public string EmojiIcon { get; set; }
+
     }
 }
