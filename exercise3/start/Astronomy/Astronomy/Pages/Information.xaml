@@ -11,11 +11,12 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
+    
+    
 
 
-    <Grid RowSpacing="10" ColumnSpacing="10">
+    <Grid RowSpacing="5" ColumnSpacing="5">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
@@ -23,18 +24,22 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Image Aspect="AspectFill" Grid.RowSpan="6" Grid.ColumnSpan="2" Source="starfield.png" />
+        <Image Aspect="AspectFill" Grid.RowSpan="6" Grid.ColumnSpan="2" Source="space.jpeg" />
 
-        <Label x:Name="lblTitle" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />
+        <Label x:Name="lblTitle" FontSize="30" FontAttributes="Bold" Grid.Row="0" Grid.ColumnSpan="1" HorizontalOptions="Center" />
 
-        <Label x:Name="lblId" FontSize="Medium" Grid.Row="2" Grid.Column="1" />
-        <Label x:Name="lblName" FontSize="Medium" Grid.Row="3" Grid.Column="1" />
-        <Label x:Name="lblEmoji" FontSize="Medium" Grid.Row="4" Grid.Column="1" />
+
+        <VerticalStackLayout Grid.Row="3" Grid.Column="0" HorizontalOptions="Center">
+            <Label x:Name="lblId" FontSize="Medium" HorizontalOptions="Center"/>
+            <Label x:Name="lblName" FontSize="Medium"  />
+            <Label x:Name="lblEmoji" FontSize="Medium" HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
 
     </Grid>
+
+
 </ContentPage>

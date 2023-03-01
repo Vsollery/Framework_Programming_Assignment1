@@ -4,7 +4,7 @@ public static class InformationData
 {
     public static InformationBody Info1 = new InformationBody()
     {
-        Course = "Pemograman Berbasis Kerangka Kerjan (IUP)",
+        Course = "PBKK (IUP)",
         Title = "Tentang Saya!",
         Id = "5025201161",
         Name = "Venia Sollery Aliyya Hasna",
