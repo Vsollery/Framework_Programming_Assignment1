@@ -19,6 +19,10 @@ Assignment 1 from the course Framework Programming (IUP) at Institut Teknologi S
 
 ### Use tabbed pages with navigation pages
 
+![exercise_3](/images/Exercise_3(1).jpeg)
+
+![exercise_3](/images/Exercise_3(2).png)
+
 
 
 
